@@ -44,7 +44,7 @@ h4 {
 main {
 
     max-width: 1310px;
-    margin: 5rem auto;
+    margin: 3rem auto;
     
 
     .testimonials {
@@ -80,8 +80,6 @@ main {
             grid-column: 1 / 3;
             background: bases.$daniel-color;
             color: bases.$light-color;
-            // background: url('./images/bg-pattern-quotation.svg') no-repeat;
-            // background-position: top center;
             z-index: 2;
             
         }
