@@ -113,3 +113,29 @@ main {
 
 }
 
+@media screen and (max-width: 1440px) {
+    main {
+        max-width: 95%;
+    }
+}
+
+@media screen and (max-width: 48em) {
+    main {
+        max-width: 90%;
+        .testimonials {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            .message {
+                padding: 32px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 40em) {
+    .bg-pattern-quotation {
+        display: none;
+    }
+}
